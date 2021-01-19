@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "myPortfolio",
+			"path": ".."
+		},
+		{
+			"name": "public",
+			"path": "../../seattle-301d70/class-05/lab/starter-code/public"
+		}
+	],
+	"settings": {}
+}
