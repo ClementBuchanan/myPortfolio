@@ -109,7 +109,12 @@ input, select, textarea {
 		line-height: 1.75em;
 		color: #888;
 	}
-
+#title {
+	font-size: 1em;
+}
+#sub-title {
+	font-size: .8em;
+}
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
@@ -1746,8 +1751,23 @@ input, select, textarea {
 
 	.image {
 		display: inline-block;
-		border: 0;
 	}
+
+	.cicle {
+		background: url(images.clement.jpg);
+		background-size: cover;
+	}
+
+	#clement {
+		width: 400px;
+		border-radius: 50%;
+		float: left;
+		width: 25%;
+		height: auto;
+		margin-right:	2rem; 
+		shape-outside:	circle();
+	}
+
 
 		.image img {
 			display: block;
@@ -1755,9 +1775,9 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
-			background: #f00;
+			width: 40px;
+			height: 40px;
+			/* background: rgba(88, 86, 86, 0.918); */
 		}
 
 			.image.avatar48 img {
